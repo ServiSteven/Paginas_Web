@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 3%;
+    background-color: #e3e4e5;
+}
+h2, h4 {
+    font-family: 'Century Gothic', sans-serif;
+    color: #243c56;
+}
+h1 {
+    font-family: 'Century Gothic', sans-serif;
+    color: #243c56;
+    font-size: 300%;
+}
+#listMenu {
+    font-family: 'Century Gothic', sans-serif;
+    font-size: 100%;
+}
+
+.form {
+    margin: 2%;
+    padding: 1%;
+    box-shadow: 0px 2px 5px rgba(58, 93, 131, 0.5);
+    border-radius: 20px;
+    display: inline-block;
+    background-color: #bfc0c1;
+}
+.form input {
+    border: solid #3A5D83;
+    padding: 6px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-family: 'Century Gothic', sans-serif;
+    color: #243c56;
+}
+.form textarea {
+    border: solid #3A5D83;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-family: 'Century Gothic', sans-serif;
+    width: 90%;
+    height: auto;
+    color: #243c56;
+}
+.form input, textarea {
+    width: 90%;
+}
+.btn {
+    margin-bottom: 2%;
+    font-size: 18px;
+    font-family: 'Century Ghotic', sans-serif;
+    font-weight: bold;
+    color: white !important;
+    background: #243c56;
+    border: 0px;
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+}
+.form p {
+    font-style: italic;
+}
+.form p > a {
+    font-weight: bold;
+    color: #243c56;
+}

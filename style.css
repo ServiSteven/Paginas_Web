@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+  align-items: center;
+}
+#barHead {
+  padding: 1% 1%;
+  background-color: #243c56;
+  color: #e3e4e5;
+  font-size: 100%;
+  text-align: center;
+  align-items: center;
+}
+body {
+  margin: 3%;
+  background-color: #e3e4e5;
+}
+h2, h4 {
+  font-family: 'Century Gothic', sans-serif;
+  color: #243c56;
+}
+h1 {
+  font-family: 'Century Gothic', sans-serif;
+  color: #e3e4e5;
+  font-size: 300%;
+}
+#listMenu {
+  font-family: 'Century Gothic', sans-serif;
+  font-size: 100%;
+}
+#id {
+  max-width: 90%;
+  max-height: 90%;
+  border: 2px solid #333;
+  border-radius: 8px;
+
+}
+footer {
+  text-align: center;
+}
